@@ -1,5 +1,6 @@
 body{
     font-family: 'Poppins', sans-serif;
+    margin:0;
 }
 h1{
     font-size: 50px;
@@ -7,8 +8,12 @@ h1{
 .orange-color{
     color:orange;
 }
-section{
+h3{
+    color: orange;
+}
+.flexible-container{
     display: flex;
+    margin-bottom: 100px;
 }
 .half-width{
     width: 50%;
@@ -16,4 +21,45 @@ section{
 }
 .half-width img{
     width:80% ;
+}
+.link-button{
+    text-decoration: none;
+    background-image: linear-gradient(orange,tomato );
+    padding: 10px 40px;
+    color: blue;
+    font-weight: 700;
+    border-radius: 5px;
+
+}
+.top-button{
+    background-image:url(image/top-banner) ;
+    background-repeat: no-repeat;
+}
+.experience-area{
+    background-image: url(moz-linear-gradient);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.experience-item{
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 20px;
+    border-radius: 10px;
+    border-left: 10px blue;
+    box-shadow: 10px 10px 40px gray;
+}
+#Full-stack-experience{
+    border-left: 7px solid;
+    border-image: linear-grandient(salmon, tomato);
+    border-image-slice: 1px;
+}
+#web-developer-experience{
+    border-left: 7px solid;
+    border-image: linear-grandient(blue,cyan);
+    border-image-slice: 1px;
+}
+footer p{
+    text-align: center;
+    color: blue;
 }
